@@ -13,7 +13,7 @@ header {
   padding: 40px;
   text-align: center;
   background: #63B3ED;
-  margin:30px;
+  margin:0px;
   font-size:20px;
   color: #ffffff;
 }
@@ -57,10 +57,19 @@ footer{
 }
 
 aside {
-    height: 100%;
+    height: 70%;
     width: 150px;
-    position: fixed;
+    position: absolute;
     top: 0;
-    left: 0;
-    padding-top: 40px;
+    right: 0;
+    padding-top: 700px;
     }
+
+    body:not(.header) {
+        margin-right: 250px;
+        }
+
+    hr {
+         border: 0;
+         border-top: 2px solid black;
+         }
